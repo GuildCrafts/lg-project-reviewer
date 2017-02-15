@@ -2,20 +2,20 @@
 
 function init {
   cd ~
-  mkdir reviews-directory
-  cd reviews-directory
+  mkdir lg-reviews-directory
+  cd lg-reviews-directory
   echo 'Ready for reviews!'
 }
 
 function clear_projects {
   cd ~
-  rm -rf reviews-directory
-  echo 'Successfully removed review_directory!'
+  rm -rf lg-reviews-directory
+  echo 'Successfully removed lg-reviews-directory!'
 }
 
 function review_project {
   cd ~
-  cd reviews-directory
+  cd lg-reviews-directory
   git clone ${2}
   cd ${3}
   git fetch --all
@@ -23,6 +23,7 @@ function review_project {
   ${5} .
   npm install
   npm run test
+  echo 'The branch is in detached HEAD state...'
 }
 
 function help {

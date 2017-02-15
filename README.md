@@ -24,4 +24,4 @@ The `go` program is designed to facilitate the process of reviewing projects rel
 
 #Contributing/Feedback
 
-If you have any thoughts or ideas please don't hesitate to contribute to this repository.
+If you have any thoughts or ideas feel free to contribute to this repository.
