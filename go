@@ -34,7 +34,7 @@ function help {
   echo "the command above installs a project and runs tests for a particular SHA"
 }
 
-if [ -z "${1}"] ; then
+if [ -z ${1} ] ; then
   echo "The commands you can run are -"
   help
   exit 0

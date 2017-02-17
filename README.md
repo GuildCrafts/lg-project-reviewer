@@ -6,15 +6,7 @@ The `go` program is designed to facilitate the process of reviewing projects rel
 
   * Clone this repository
 
-  * The commands to run the scripts in `Bash` are
-    ```Bash
-      ./go help
-      ./go init
-      ./go review_project [repository_url] [repository_name] [commit] [editorSymLink]
-      ./go clear_projects
-    ```
-
-  * The commands to run if you are using `Zshell`
+  * The commands to run the scripts from the `Shell` are
     ```Bash
       sh go help
       sh go init
