@@ -28,9 +28,9 @@ function review_project {
 
 function help {
   echo "Usage:"
-  echo "./go init ...... Use before reviewer function!! Will setup review directory"
-  echo "./go clear_projects ...... Deletes directory created by init command"
-  echo "./go review_project [repository_url] [repository_name] [commit] [editorSymLink]"
+  echo "sh go init ...... Use before reviewer function!! Will setup review directory"
+  echo "sh go clear_projects ...... Deletes directory created by init command"
+  echo "sh go review_project [repository_url] [repository_name] [commit] [editorSymLink]"
   echo "the command above installs a project and runs tests for a particular SHA"
 }
 
